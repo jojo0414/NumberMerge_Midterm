@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var numberBlock = NumberArray()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        GameView()
+            .environmentObject(numberBlock)
     }
 }
 

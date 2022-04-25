@@ -11,6 +11,8 @@
 		C8DDEECE2811ACB5006AE665 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DDEECD2811ACB5006AE665 /* ContentView.swift */; };
 		C8DDEED02811ACB7006AE665 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8DDEECF2811ACB7006AE665 /* Assets.xcassets */; };
 		C8DDEED32811ACB7006AE665 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8DDEED22811ACB7006AE665 /* Preview Assets.xcassets */; };
+		C8DDEEDB2811AD03006AE665 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DDEEDA2811AD02006AE665 /* GameView.swift */; };
+		C8DDEEDE2811BFE3006AE665 /* numberArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DDEEDD2811BFE3006AE665 /* numberArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		C8DDEECD2811ACB5006AE665 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C8DDEECF2811ACB7006AE665 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8DDEED22811ACB7006AE665 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C8DDEEDA2811AD02006AE665 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		C8DDEEDD2811BFE3006AE665 /* numberArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numberArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				C8DDEECB2811ACB5006AE665 /* NumberMerge_MidtermApp.swift */,
 				C8DDEECD2811ACB5006AE665 /* ContentView.swift */,
+				C8DDEEDD2811BFE3006AE665 /* numberArray.swift */,
+				C8DDEEDA2811AD02006AE665 /* GameView.swift */,
 				C8DDEECF2811ACB7006AE665 /* Assets.xcassets */,
 				C8DDEED12811ACB7006AE665 /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8DDEEDE2811BFE3006AE665 /* numberArray.swift in Sources */,
 				C8DDEECE2811ACB5006AE665 /* ContentView.swift in Sources */,
+				C8DDEEDB2811AD03006AE665 /* GameView.swift in Sources */,
 				C8DDEECC2811ACB5006AE665 /* NumberMerge_MidtermApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
